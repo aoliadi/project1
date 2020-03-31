@@ -1,0 +1,170 @@
+/*
+<!--aoliadi, 2020-->
+
+<!--all rights reserved-->
+
+<!--No part of this code may be reproduced, distributed or stored in a retrieval system or trasnmitted in any form or  by any means without prior written permission to author.-->
+
+<!--for more information on how to reproduce selections from this structure, kindly contact author via aoliadi1998@gmail.com-->
+
+<!--thank you!!!-->
+
+<!--**************************************************************-->
+<!--**************************************************************-->
+
+<!--PROJECT BEGINS-->
+*/
+
+
+/*"Trebuchet MS", Helvetica, sans-serif*/
+
+* {
+    padding:0;
+    margin:0;
+}
+
+#overall {
+    min-height: 100vh;
+    position: relative;
+    margin:10px 0;
+    padding:10px 0;
+    align-content:center;
+}
+
+body {
+    background-image:url("glacier.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    background-attachment: fixed;
+    align-content:center;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    color:white;
+    min-height:100vh;
+}
+
+div.bg {
+            padding:35px 35px;
+            margin:0;
+            outline:0;
+            box-sizing:border-box;
+            width:450px;
+            height:480px;
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%, -50%);
+            background-color:whitesmoke;
+            color:black;
+        }
+        
+.caps, div.bg {
+            text-transform:uppercase;
+        }
+        
+.caps {
+            background-color:burlywood; 
+            text-align:center;
+           
+        
+}
+
+        
+/*    form styling begins*/
+        
+        form {
+           padding:0;
+            margin:0;
+        }
+        
+        form label {
+           padding:15px 0;
+            margin:0;
+            line-height:1.35em;
+        }
+
+        
+        form input[type="text"] , [type="password"] , [type="email"] {
+            padding:5;
+            margin:0;
+            outline:none;
+            border:none;
+            background:transparent;
+            border-bottom:2px dotted rgba(0, 0, 216, 0.5);
+            width:100%;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+        }
+        
+          form input[type="submit"] {
+            padding:8;
+            margin:0;
+            border:none;
+            outline:none;
+            border-radius:10px;
+            background:burlywood;
+            width:100%;
+            cursor:pointer;
+        }
+        
+        form input[type="submit"]:hover {
+            background-color:white;
+        }
+        
+/*        optional gender*/
+        small {
+            text-transform:lowercase;
+            font-size:0.75em;
+        }
+/*        optional gender*/
+        
+/*form styling ends*/
+        
+
+
+/*        footer styling begins*/
+        
+
+footer { 
+            color:darkblue;
+            font-size:15px;
+            text-align:center;
+            background-color:burlywood;
+            padding: 10px 0;
+            margin:0;
+    outline:none;
+            position:fixed;
+            bottom:0;
+            width:100%;
+        }
+        
+#copyright {
+            font-size:10px;
+            font-family:"Trebuchet MS", Helvetica, sans-serif;
+            padding-top:10px;
+            font-weight:bold;
+        }
+        
+footer p span {
+            font-size:18px;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+        }
+         
+footer ul {
+           list-style-type:none;
+            }
+        
+footer ul li {
+            display:inline;
+        }
+
+footer ul li a {
+            color:darkblue;
+           text-decoration:none;
+            padding: 0 30px;
+        }
+        
+footer ul li a:hover {
+            color:ghostwhite;
+        }
+/*        footer styling ends*/
+
