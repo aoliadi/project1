@@ -40,7 +40,6 @@ body {
     align-content:center;
     font-family:"Trebuchet MS", Helvetica, sans-serif;
     color:white;
-    min-height:100vh;
 }
 
 div.bg {
@@ -50,23 +49,27 @@ div.bg {
             box-sizing:border-box;
             width:450px;
             height:480px;
+    line-height: 20px;
+            background-color:whitesmoke;
+            color:black;
+    border-radius:10px 0;
+        }
+        
+div.bg2 {
             position:absolute;
             top:50%;
             left:50%;
             transform: translate(-50%, -50%);
-            background-color:whitesmoke;
-            color:black;
+
         }
-        
+
 .caps, div.bg {
             text-transform:uppercase;
         }
         
 .caps {
-            background-color:burlywood; 
-            text-align:center;
-           
-        
+        text-align:center;
+        margin-top: 50px;
 }
 
         
@@ -96,18 +99,21 @@ div.bg {
         }
         
           form input[type="submit"] {
-            padding:8;
+            padding:15px;
             margin:0;
             border:none;
             outline:none;
-            border-radius:10px;
+            border-radius:10px 0;
             background:burlywood;
             width:100%;
+            font-family:"Trebuchet MS", Helvetica, sans-serif;
+            font-size:15px;
+            color: darkblue;
             cursor:pointer;
         }
         
         form input[type="submit"]:hover {
-            background-color:white;
+            color:#080043;
         }
         
 /*        optional gender*/
@@ -119,8 +125,6 @@ div.bg {
         
 /*form styling ends*/
         
-
-
 /*        footer styling begins*/
         
 
@@ -168,3 +172,19 @@ footer ul li a:hover {
         }
 /*        footer styling ends*/
 
+@media(max-width:500px){
+    div.bg {
+            width:340px;             
+            height:400px;
+            padding:30px 35px;
+
+        }
+    
+    form input[type="submit"] {
+            font-size:10px;
+        padding:10px;             border-radius:7px 0;
+
+        }
+        
+
+        }
