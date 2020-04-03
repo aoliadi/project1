@@ -16,12 +16,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-    
     <!-- VISIBLE PROJECT BEGINS-->
     
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta property="og:title" content="Liadi's very first HTML project"/>
+    <meta property="og:type" content="project"/>
+    <meta property="og:site_name" content="aoLIADI"/>
+    <meta property="og:image" content=""/>
+    <meta property="og:image:url" content=""/>
+    <meta property="og:image:secure-url" content=""/>
+    <meta property="og:image:width" content="400"/>
+    <meta property="og:image:height" content="400"/>
+    <meta property="og:url" content="#">
     
 <!--    TITLE BEGINS-->
     
@@ -54,7 +61,8 @@
 font-family: 'Ubuntu', sans-serif;
 */
 }
-
+        
+        
     </style>
 </head>
 <body>
@@ -62,12 +70,14 @@ font-family: 'Ubuntu', sans-serif;
     <div id="overall"> 
         
 <!--        content heading-->
-        
-        <h1 class="caps">sign up form</h1>
-    
-   <div class="bg">
-      
-      <form action="#" method="GET" autocomplete="on">
+    <div class="">
+        <div class="caps">
+           <h1>sign up form</h1> </div>
+          <div>
+   <div class="bg bg2">
+       
+       
+      <form action="#" method="GET" autocomplete="off">
           
  <!--          first name-->
           
@@ -105,25 +115,28 @@ font-family: 'Ubuntu', sans-serif;
           <br/>
         <input type="radio" value="male" name="gender" id="male">  <label for="male">Male</label>
           <input type="radio" value="female" name="gender" id="female"> <label for="female">Female</label>
-          <br/><br/><br/><br/>
+          <br/><br/>
           
 <!--          sign up inputs end-->
 <!--          ************************************-->
 <!--          submission button-->
-          <input type="submit" value="Submit">
+          <input type="submit" value="Sign Up">
 <!--          submission button-->
        </form> 
     </div>
+            </div>
+        </div>
+        
 <!--    FOOTER BEGINS-->
 <footer>
     <ul>
-        <li><a href="#" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
-        <li><a href="#" target="_blank"><i class="fab fa-instagram-square"></i></a></li>
-        <li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-        <li><a href="#" target="_blank"><i class="fab fa-orcid"></i></a></li>
+        <li><a href="#" target="_blank"><i class="fab fa-twitter-square fa-3x"></i></a></li>
+        <li><a href="#" target="_blank"><i class="fab fa-instagram-square fa-3x"></i></a></li>
+        <li><a href="#" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a></li>
+        <li><a href="#" target="_blank"><i class="fab fa-orcid fa-3x"></i></a></li>
     </ul>
     <p>&ldquo;Learning never exhausts the mind&rdquo; &mdash; <span>Leonardo da Vinci</span></p>
-    <p id="copyright">&copy; aoliadi, 2020</p>  
+    <p id="copyright">&copy; aoliadi, <script>document.write(new Date().getFullYear())</script></p>  
        
 </footer>
 <!--    FOOTER ENDS-->
